@@ -9,7 +9,7 @@ function binarySearch(searchKey, array) {
 
     while (found === false && first <= last) {
         middle = Math.floor((first + last) / 2);
-        if (array[middle] == searchKey) {
+        if (array[middle] === searchKey) {
             found = true;
             position = middle;
         } else if (array[middle] > searchKey) {  //if in lower half
