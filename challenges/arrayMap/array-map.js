@@ -12,13 +12,6 @@ const map = (arr, callback) => {
     return newArray;
 };
 
+console.log(map([1, 2, 3, 4], num => num * 3));
+
 //test the function. Should return [3, 6, 9, 12]
-console.log(map([1,2,3,4], num => num * 3)
-
-
-
-
-
-
-
-
